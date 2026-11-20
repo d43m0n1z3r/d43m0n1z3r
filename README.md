@@ -194,31 +194,17 @@ pip install -e . && bconn doctor
 ### 🕹️ `d43m0n1z3r@ops:~$ ./insert_coin.sh`
 
 <details>
-<summary><b>🎮 EASTER EGG</b> — press start</summary>
+<summary><b>🎮 EASTER EGG</b> — scan to unlock</summary>
 
-<pre><code>
-┌────────────────────────────────────┐
-│  🕹️  INSERT COIN TO CONTINUE       │
-├────────────────────────────────────┤
-│                                    │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
-│                                    │
-│  HIGH SCORE: ∞ COMMITS             │
-│  CREDITS: 0                         │
-│                                    │
-└────────────────────────────────────┘
+<div align="center">
 
-[START]  [INSERT COIN]
-</code></pre>
+<p style="color: #00E5FF;">🔓 Scan the QR code to reveal the secret</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/th3d43m0n1z3r&color=00E5FF&bgcolor=0d1117" alt="QR Code" />
+
+<p style="color: #8B949E;">Links to: <a href="https://github.com/th3d43m0n1z3r" style="color: #00E5FF;">@th3d43m0n1z3r</a> (main account)</p>
+
+</div>
 
 You found the easter egg. +1 daemon energy.
 The real treasure: [main account @th3d43m0n1z3r](https://github.com/th3d43m0n1z3r) has the full professional arsenal.
