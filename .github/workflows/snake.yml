@@ -1,0 +1,44 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist
+          svg_out_filename: github-contribution-grid-snake.svg
+          use_commit_every_contribution: true
+          theme: {
+            snake: {
+              light: '#00E5FF',
+              dark: '#00E5FF'
+            },
+            point: {
+              light: '#FF2A6D',
+              dark: '#FF2A6D'
+            }
+          }
+
+      - name: Commit snake
+        run: |
+          mkdir -p output
+          cp dist/github-contribution-grid-snake.svg output/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ dist/
+          git diff --cached --quiet || git commit -m "chore: update snake animation [skip ci]"
+          git push
