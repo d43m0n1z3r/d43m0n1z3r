@@ -19,14 +19,11 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
           svg_out_filename: github-contribution-grid-snake.svg
           use_commit_every_contribution: true
-          palette: '{
-            "light": "#00E5FF",
-            "dark": "#00E5FF",
-            "point": "#FF2A6D"
-          }'
 
       - name: Commit snake
         run: |
