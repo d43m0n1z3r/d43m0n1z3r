@@ -186,9 +186,7 @@ pip install -e . && bconn doctor
 ### 🐍 `d43m0n1z3r@ops:~$ tail -f /var/log/contributions.log`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/d43m0n1z3r/d43m0n1z3r/HEAD/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-  <br/>
-  <small style="color: #8B949E;">Run the "Generate Snake" workflow to activate</small>
+  <img src="https://raw.githubusercontent.com/th3d43m0n1z3r/th3d43m0n1z3r/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
