@@ -22,16 +22,11 @@ jobs:
           outputs: dist
           svg_out_filename: github-contribution-grid-snake.svg
           use_commit_every_contribution: true
-          theme: {
-            snake: {
-              light: '#00E5FF',
-              dark: '#00E5FF'
-            },
-            point: {
-              light: '#FF2A6D',
-              dark: '#FF2A6D'
-            }
-          }
+          palette: '{
+            "light": "#00E5FF",
+            "dark": "#00E5FF",
+            "point": "#FF2A6D"
+          }'
 
       - name: Commit snake
         run: |
