@@ -196,17 +196,29 @@ pip install -e . && bconn doctor
 <details>
 <summary><b>🎮 EASTER EGG</b> — press start</summary>
 
-```
-   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-   ██ ▄▄▄▄▄ █▀▀ ████ ▄▄▄▄▄ ██  ██
-   ██ █   █ █▄▄ ▀▀▀█ █   █ ██▄▄▄█
-   ██ █▄▄▄█ █ ▀▄ ███ █▄▄▄█ ██▀▀▀
-   ██▄▄▄▄▄▄▄█▄█ █▄█▄▄▄▄▄▄▄▄█▄██▄█
-   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+<pre><code>
+┌────────────────────────────────────┐
+│  🕹️  INSERT COIN TO CONTINUE       │
+├────────────────────────────────────┤
+│                                    │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         │
+│                                    │
+│  HIGH SCORE: ∞ COMMITS             │
+│  CREDITS: 0                         │
+│                                    │
+└────────────────────────────────────┘
 
-   insert coin to continue
-   high score: ∞ commits
-```
+[START]  [INSERT COIN]
+</code></pre>
 
 You found the easter egg. +1 daemon energy.
 The real treasure: [main account @th3d43m0n1z3r](https://github.com/th3d43m0n1z3r) has the full professional arsenal.
